@@ -23,7 +23,7 @@ def trap_rain_water(arr):
 
 if __name__ == '__main__':
     data = [
-        [1, 0, 2, 0, 1, 0, 3, 1, 0, 2], [3, 0, 2, 0, 4]
+        [1, 0, 2, 0, 1, 0, 3, 1, 0, 2], [3, 0, 2, 0, 4], [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
     ]
     for arr in data:
         trapped_rain_water = trap_rain_water(arr)
